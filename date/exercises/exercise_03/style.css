@@ -29,7 +29,7 @@ html{
 }
 
 #button1:hover:after{
-    content: "Nicht alle Attribute (Spalten) sollen angezeigt werden.";
+    content: "Du brauchst die Attribute: vorname und nachname. Außerdem brauchst du die Funktion MONTH() mit dem Attribut 'eintrittsdatum'.";
     font-size: 20px;
  }
 
@@ -58,7 +58,7 @@ html{
 }
 
 #button2:hover:after{
-    content: "Die Tabelle heißt fahrschueler.";
+    content: "Die Tabelle heißt mitglieder.";
     font-size: 20px;
  }
 
@@ -87,6 +87,6 @@ html{
 }
 
 #button3:hover:after{
-    content: "Das Attribut ort soll gleich 'Plüderhausen' sein.";
+    content: "Das Attribut nachname soll gleich 'Belz' sein.";
     font-size: 20px;
  }
