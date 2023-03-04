@@ -1,0 +1,92 @@
+html{
+    text-align: center;
+    background-color: #fffcf2;
+}
+
+
+
+#button1{
+    margin-top: 10px;
+    padding: 10px 30px;
+    height: 200px;
+    width: 350px;
+    color: #212121;
+    background-color: #e2f0d9 ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    border: solid 3px #4f6b3b;
+    border-radius: 2px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#button1:hover{
+    color: #FFFFFF;
+    background-color: #4f6b3b;
+}
+
+#button1::after{
+    content: "SELECT";
+}
+
+#button1:hover:after{
+    content: "Du brauchst die Attribute: Vorname und Nachname. Außerdem brauchst du die Funktion YEAR() mit dem geburtsdatum als Attribut.";
+    font-size: 20px;
+ }
+
+#button2{
+    margin-top: 25px;
+    padding: 10px 30px;
+    height: 200px;
+    width: 350px;
+    color: #212121;
+    background-color: #f4b182 ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    border: solid 3px #843c0c;
+    border-radius: 2px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#button2:hover{
+    color: #FFFFFF;
+    background-color: #843c0c ;
+
+}
+
+#button2::after{
+    content: "FROM";
+}
+
+#button2:hover:after{
+    content: "Die Tabelle heißt fahrschueler.";
+    font-size: 20px;
+ }
+
+#button3{
+    margin-top: 25px;
+    padding: 10px 30px;
+    height: 200px;
+    width: 350px;
+    color: #212121;
+    background-color: #deebf6 ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    border: solid 3px #2e75b6;
+    border-radius: 2px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#button3:hover{
+    color: #FFFFFF;
+    background-color: #2e75b6 ;
+
+}
+
+#button3::after{
+    content: "WHERE";
+}
+
+#button3:hover:after{
+    content: "Das Attribut ort soll gleich 'Plüderhausen' sein.";
+    font-size: 20px;
+ }
