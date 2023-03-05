@@ -29,7 +29,7 @@ html{
 }
 
 #button1:hover:after{
-    content: "Du brauchst die Attribute: vorname und nachname. Außerdem brauchst du die Funktion MONTH() mit dem Attribut 'eintrittsdatum'.";
+    content: "Du brauchst die Attribute: vorname und nachname. Außerdem brauchst du die Funktion MONTH() mit dem Attribut eintrittsdatum.";
     font-size: 20px;
  }
 
