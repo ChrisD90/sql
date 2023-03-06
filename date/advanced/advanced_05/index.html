@@ -9,8 +9,9 @@
   <body>
 
         <h1>Aufgabe 5</h1>
-        <p>SELECT AVG(YEAR(NOW()) - YEAR(geburtsdatum)) AS durchschnittsalter_gesamt</p>
-        <p>FROM mitglieder;</p>
+        <p>SELECT AVG(YEAR(NOW()) - YEAR(geburtsdatum)) AS durchschnittsalter_erfahren</p>
+        <p>FROM mitglieder</p>
+        <p>WHERE level = 'Erfahren';</p>
 
   </body>
 </html>
